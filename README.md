@@ -1,76 +1,123 @@
-# 🌍 United Nation Global Terrorism Analysis using Exploratory Data Analysis (EDA)
+# 🌍 United Nation Global Terrorism Analysis — Exploratory Data Analysis (EDA)
 
 ## 📌 Project Overview
 
-This project focuses on performing Exploratory Data Analysis (EDA) on the Global Terrorism Dataset to understand patterns, trends, and insights related to terrorist incidents worldwide. The goal is to analyze terrorism activities across different countries, regions, years, and attack types to identify high-risk areas and understand the distribution of incidents.
+The United Nations Global Terrorism Analysis (UNGTA) project focuses on performing an in-depth Exploratory Data Analysis (EDA) on global terrorist incidents recorded between 1970 and 2017. Terrorism is a critical global issue that impacts national security, economic stability, and public safety. This project analyzes historical terrorism data to uncover patterns, trends, and meaningful insights that help understand the evolving nature of terrorist activities worldwide.
 
-The analysis helps in discovering hidden patterns in terrorism data and provides meaningful insights using statistical summaries and visualizations.
-
----
-
-# 🎯 Objective
-
-The objective of this project is to analyze global terrorism incidents using exploratory data analysis techniques. The project aims to identify trends in terrorist attacks over time, determine the most affected countries and regions, analyze attack types and targets, and understand casualty distribution. This analysis helps in gaining insights into terrorism patterns and high-risk areas.
+The dataset contains more than 180,000 records of terrorist attacks with multiple attributes such as year, country, region, attack type, terrorist group, and casualty information. Data preprocessing was performed to handle missing values, select relevant columns, and standardize inconsistent entries. Missing casualty values were replaced with zeros, and unknown group names were standardized for consistency.
 
 ---
 
-# 📂 Dataset
+# 🎯 Problem Statement
 
-The dataset used in this project is the Global Terrorism Database (GTD), which contains information about terrorist incidents around the world.
-
-### Dataset Features
-
-* Year of incident
-* Country
-* Region
-* Attack type
-* Target type
-* Terrorist group
-* Number killed
-* Number wounded
-* Success rate
+The objective of this project is to analyze global terrorism data to identify patterns, trends, and key insights. The project focuses on understanding which regions and countries are most affected, how terrorist activities have evolved over time, and analyzing casualties and attack patterns.
 
 ---
 
-# 🔍 Exploratory Data Analysis (EDA)
+# 💼 Business Objective
+
+The United Nations Global Terrorism dataset provides a detailed record of terrorist incidents worldwide. This analysis helps governments, policymakers, and security agencies understand terrorism patterns, identify high-risk regions, and make informed decisions to improve security and counter-terrorism strategies.
+
+---
+
+# 📂 Dataset Information
+
+The Global Terrorism Dataset includes the following key variables:
+
+* iyear – Year of incident
+* country_txt – Country where attack occurred
+* region_txt – Region of the world
+* attacktype1_txt – Type of attack
+* gname – Terrorist group name
+* nkill – Number of people killed
+* nwound – Number of people wounded
+* total_casualties – Total impact (killed + wounded)
+
+---
+
+# 🧹 Data Preprocessing
+
+The dataset was cleaned and prepared using the following steps:
+
+* Selected relevant columns for analysis
+* Handled missing values in nkill and nwound
+* Standardized unknown terrorist group names
+* Created new feature total_casualties
+* Aggregated data by year, country, and region
+
+---
+
+# 🔍 Exploratory Data Analysis
 
 EDA was performed to understand terrorism patterns and global trends.
 
 ### Analysis Performed
 
-* Attacks per year trend
+* Terrorist attacks per year
 * Country wise attack analysis
 * Region wise distribution
 * Attack type analysis
-* Target type analysis
-* Casualty distribution
 * Terrorist group analysis
-* Success rate analysis
+* Casualty distribution
+* Total casualties over time
+* Region wise casualties
+* Country wise casualties
 
 ---
 
-# 📊 Visualizations
+# 📊 Visualizations Included
 
-The following visualizations were created:
+The project includes multiple meaningful charts:
 
 * Attacks per year line chart
-* Top affected countries bar chart
-* Region wise distribution chart
-* Attack type distribution chart
-* Target type analysis chart
-* Casualty distribution plot
-* Terrorist group frequency chart
+* Top 10 countries with most attacks
+* Attacks by region
+* Attack type distribution
+* Word cloud of terrorist groups
+* Total casualties over years
+* Top regions by casualties
+* Top countries by casualties
 
 ---
 
 # 📈 Key Insights
 
-* Terrorist attacks increased significantly after 2005
-* Middle East and South Asia are most affected regions
-* Bombing and explosion are most common attack types
-* Majority of incidents result in low casualties
-* Few incidents have extremely high casualties
-* Certain countries show consistently high attack frequency
+* Terrorist attacks increased significantly after 2000
+* Middle East & North Africa region has highest attacks
+* Terrorism is concentrated in specific countries
+* Bombing and armed assault are most common attack types
+* Few terrorist groups dominate attack frequency
+* Casualties fluctuate with peaks in certain years
+* Some countries experience significantly higher casualties
+* High severity incidents are limited but impactful
+
+---
+
+# 📊 Example Charts
+
+## Attacks per Year
+
+Shows trend of terrorist incidents over time.
+
+## Top Countries with Most Attacks
+
+Identifies countries most affected by terrorism.
+
+## Attacks by Region
+
+Highlights regional distribution of terrorist activities.
+
+## Attack Type Distribution
+
+Shows most common attack methods.
+
+## Terrorist Group WordCloud
+
+Displays most active terrorist groups.
+
+## Total Casualties Over Time
+
+Shows severity trend across years.
 
 ---
 
@@ -81,10 +128,19 @@ The following visualizations were created:
 * NumPy
 * Matplotlib
 * Seaborn
-* Jupyter Notebook / Google Colab
+* WordCloud
+* Google Colab
+
+---
+
+# 📌 Solution to Business Objective
+
+The analysis provides insights into terrorism patterns, helping stakeholders identify high-risk regions, understand attack trends, and focus on major terrorist groups. These findings support better decision-making in security planning and risk management.
 
 ---
 
 # 📌 Conclusion
 
-The exploratory data analysis revealed important patterns in global terrorism incidents. The analysis identified high-risk regions, most common attack types, and yearly trends. These insights help in understanding terrorism distribution and provide a foundation for further analysis.
+The exploratory data analysis successfully identified global terrorism trends, regional concentration, and dominant terrorist groups. The insights gained from the dataset help understand terrorism patterns and support improved counter-terrorism strategies and global security planning.
+
+---
