@@ -1,5 +1,7 @@
 # 🌍 United Nation Global Terrorism Analysis — Exploratory Data Analysis (EDA)
 
+![Machine Learning Process](https://github.com/satyamlokhande25-maker/United-Nation-Global-Terrorism-Analysis-Using-ML-unsupervised-Learning-/blob/54106c2be0e810b098253b8bada24f9deeea4520/ML-workflow.png)
+
 ## 📌 Project Overview
 
 The United Nations Global Terrorism Analysis (UNGTA) project focuses on performing an in-depth Exploratory Data Analysis (EDA) on global terrorist incidents recorded between 1970 and 2017. Terrorism is a critical global issue that impacts national security, economic stability, and public safety. This project analyzes historical terrorism data to uncover patterns, trends, and meaningful insights that help understand the evolving nature of terrorist activities worldwide.
