@@ -1,6 +1,6 @@
 # 🌍 United Nation Global Terrorism Analysis — Exploratory Data Analysis (EDA)
-
-
+![EDA](https://github.com/satyamlokhande25-maker/United-Nation-Global-Terrorism-Analysis-using-EDA/blob/24b0bbf278b5528121c5d02e132a77a9f98c4705/1_NS1paZK2eZQyOaU8q0oC3Q%20(1).png
+)
 
 ## 📌 Project Overview
 
